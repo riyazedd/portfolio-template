@@ -12,8 +12,8 @@ This is a modern, customizable portfolio template built with React, Vite, and Ta
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/riyazedd/your-repo.git
-   cd your-repo
+   git clone https://github.com/riyazedd/portfolio-template.git
+   cd portfolio-template
    ```
 2. **Install dependencies:**
    ```sh
