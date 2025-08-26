@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 
 export default function About(){
        return (
@@ -37,7 +38,9 @@ export default function About(){
 					   <p className="text-sm md:text-lg text-white">
 						   I'm open to <span className="font-bold text-indigo-400">job opportunities</span> where I can contribute my skills and grow professionally.
 					   </p>
-				       <button className="p-4 bg-indigo-600 mt-3 rounded text-white hover:cursor-pointer hover:bg-indigo-500">Contact me</button>
+							 <Link to="contact" smooth={true} duration={300} offset={-50}>
+								 <button className="p-4 bg-indigo-600 mt-3 rounded text-white hover:cursor-pointer hover:bg-indigo-500">Contact me</button>
+							 </Link>
 			       </motion.div>
 			       {/* Skills Section */}
 			       <motion.div className="flex-1 px-4 md:px-0"
